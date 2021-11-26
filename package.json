@@ -1,0 +1,23 @@
+{
+    "name": "scrapper",
+    "version": "1.0.0",
+    "description": "Scrapper infocasas xd",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "nodemon -r esm index.js",
+        "start": "node -r esm index.js"
+    },
+    "author": "Nicolas Montiel",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "esm": "^3.2.25",
+        "exceljs": "^4.3.0",
+        "html-to-text": "^8.1.0",
+        "nodemon": "^2.0.15",
+        "prompt-sync": "^4.2.0",
+        "scrape-it": "^5.3.2",
+        "slugify": "^1.6.3"
+    }
+}
